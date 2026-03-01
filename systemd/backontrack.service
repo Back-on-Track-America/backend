@@ -5,8 +5,8 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-Environment=GOPATH=/home/lukeo/go/
-ExecStart=/usr/bin/bash /home/lukeo/backontrack/systemd/start_bot.sh
+Environment=GOPATH=/home/bot/go/
+ExecStart=/usr/bin/bash /home/bot/backontrack/systemd/start_bot.sh
 TimeoutStartSec=0
 
 [Install]

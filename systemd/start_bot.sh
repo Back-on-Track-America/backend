@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/lukeo/backontrack/
-./bot serve --http 0.0.0.0:45097
+cd /home/bot/backontrack/
+./bot serve --http 0.0.0.0:8090
